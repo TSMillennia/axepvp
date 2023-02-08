@@ -1,0 +1,156 @@
+<!DOCTYPE html><html lang="en"><head>
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/default.css">
+	<link rel="canonical" href="http://axepvpchess.org">
+	<title>Axe PvP Chess</title>
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+</head>
+<body>
+	<div id="header">
+		<a href="#" id="toggleFaq">What is Chess?</a> · <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">What is Axe PvP?</a> · <a href="https://discord.gg/WKB5VtfSNx">Why tf tho?</a> · <a href="https://www.youtube.com/channel/UCkuWX42Il8SOmJwBWXfQKmg">Stuff</a>
+	</div>
+	
+	<div id="main">
+		<h1>
+			<a href="index.html"><span class="light">Axe PvP</span> Chess</a>
+		</h1>
+		
+		<div id="flip">
+			<div id="faq">
+				<div id="wideBorder"></div>
+
+				<div id="content">
+					<h2>What is Axe PvP Chess?</h2>
+					<p>Axe PvP chess is chess but with axe pvp</p>
+					<p>Playing chess as axe pvp players</p>
+					<p>Just took an existing website and changed it up</p>
+
+					
+					<h2>Why tho</h2>
+
+					<p>Mainly because I can</p>
+					<p>Yes..</p>
+
+					<h2>So?</h2>
+					<ul>
+						<li>Just play you fucking asshole</li>
+					</ul>
+
+					<h2>Which chess rules exactly are implemented, which aren't?</h2>
+					<p>All of them</p>
+					
+					<h2>I hate my life what can I do?</h2>
+					<p>End it.</p>
+					
+					<h2>What features could be implemented next?</h2>
+					<h3>General</h3>
+					<ul>
+						<li>None</li>
+					</ul>
+
+					<h3>Online mode</h3>
+					<ul>
+						<li>Hell nah</li>
+					</ul>
+
+					<h2>Stop reading this shit</h2>
+					<p>ok..</p>
+				
+
+					<h2>BRO GO</h2>
+					<p>Fuck you</p>
+				</div>
+			</div>
+
+			<div id="chess">
+				<div id="info">
+					<p id="lastMove"></p>
+					<p id="gameTime"></p>
+					<p id="currentTurn"><span></span><!--<a id="toggleAwareness" title="Toggle 'awareness mode', highlighting how many pieces can access each field (see FAQ).">💡</a>--></p>
+				</div>
+
+				<div id="border">
+					<table>
+						<tbody><tr><th></th><td colspan="8" rowspan="8"></td></tr>
+						<tr><th></th></tr>
+						<tr><th></th></tr>
+						<tr><th></th></tr>
+						<tr><th></th></tr>
+						<tr><th></th></tr>
+						<tr><th></th></tr>
+						<tr><th></th></tr>
+						<tr><td></td><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+					</tbody></table>
+				</div>
+
+				<table id="board">
+					<tbody><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+					<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+					<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+					<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+					<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+					<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+					<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+					<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+				</tbody></table>
+
+				<ul id="whiteCemetery"></ul>
+				<ul id="blackCemetery"></ul>
+				<div class="promotion"><div></div><ul></ul></div>
+
+				<div class="menu" id="start">
+					<div class="thin stripe tone40"></div>
+					<div id="hostGame" class="stripe tone55">
+						<h2><span>♙</span>Play white online</h2>
+						<input type="text" placeholder="Host game named…" id="hostGameName">
+						<input type="button" value="Go">
+					</div>
+					<div id="joinGame" class="stripe tone70">
+						<h2><span>♟</span>Play black online</h2>
+						<input type="text" placeholder="Join game named…" id="joinGameName">
+						<input type="button" value="Go">
+					</div>
+					<div id="playOffline" class="stripe tone85">
+						<h2><a href="#"><span>♙♟</span>Play offline</a></h2>
+					</div>
+					<div class="thin stripe tone100"></div>
+				</div>
+
+				<div class="menu" id="pause">
+					<div class="thin stripe tone40"></div>
+					<div id="toggleAutoSave" class="stripe tone55">
+						<h2><a href="#" style="letter-spacing: -0.075em"><span>✍</span>Autosave <span>on</span></a></h2>
+					</div>
+					<div id="playOn" class="stripe tone70">
+						<h2><a href="#"><span>✲</span>Play on</a></h2>
+					</div>
+					<div id="quitGame" class="stripe tone85">
+						<h2><a href="#"><span>✗</span>Quit game</a></h2>
+					</div>
+					<div class="thin stripe tone100"></div>
+				</div>
+
+				<div class="menu" id="end">
+					<div class="thin stripe tone70"></div>
+					<div id="playOn" class="stripe tone85">
+						<h2 style="top: 60px"><a href="#">Back to board</a></h2>
+					</div>
+					<div class="stripe tone100" style="z-index: 1; overflow: visible">
+						<h2><span></span><span></span></h2>
+					</div>
+					<div id="quitGame" class="stripe tone85">
+						<h2><a href="#">Start new game</a></h2>
+					</div>
+					<div class="thin stripe tone70"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/game.min.js"></script>
+
+</body></html>
